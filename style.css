@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+button {
+  border-color: lightblue;
+  border-style: solid;
+  font-family: Roboto;
+  color: white;
+}
+.startButton {
+  background-color: green;
+}
+.pauseButton {
+  background-color: #8c6700;
+}
+.stopButton {
+  background-color: red;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
+button:hover{
+  border-color: black;
+}
