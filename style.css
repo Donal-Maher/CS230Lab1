@@ -7,21 +7,25 @@ button {
   font-family: Roboto;
   color: white;
 }
-.startButton {
+#startButton {
   background-color: green;
 }
-.pauseButton {
-  background-color: #8c6700;
+#pauseButton {
+  background-color: #fcba03;
 }
-.stopButton {
+#stopButton {
   background-color: red;
 }
-.timer {
+.buttons {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   
 }
-button:hover{
+button:hover {
   border-color: black;
+}
+#apple {
+  display: flex;
+  justify-content: center;
 }
