@@ -3,23 +3,36 @@
     <head>
         <title>Lab 1 Pomodoro Timer</title>
         <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
     </head>
     <body>
-        <h1>Pomodoro Timer</h1>
+        <ul>
+            <li><a>Pomodoro Timer</a></li>
+        </ul>
         <p class="buttons">
-            <button id="startButton" type="button">Start</button>
-            <button id="pauseButton" type="button">Pause</button>
-            <button id="stopButton" type="button">Stop</button>
+            <button id="startButton" type="button" onclick="startButton()">Start</button>
+            <button id="pauseButton" type="button" onclick = "pauseButton()">Pause</button>
+            <button id="stopButton" type="button" onclick="stopButton()">Stop</button>
         </p>
-        <p id="apple" >
+        <div id="apple" >
             <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="100" cy="100" r="70" fill="red" />
                 <polyline points="100,30 100,15 110,0"
                 style="fill:none;stroke:green;stroke-width: 5"
             </svg>
-        </p>
-        <p>Time remaining: </p>
-        <h2 id="time"></h2>
+            <p id="time" style = >00 : 00</p>
+        </div>     
+        <div id="tester">
+            
+            <svg height="500" width="500" xmlns="http://www.w3.org/2000/svg">
+                <polyline points="100,190 75,197 65,197 15,80 40,30 80,35 100,45"
+                transform ="scale(1,0.8)"
+                style="fill:yellowgreen;stroke:green;stroke-width:3" />
+                <polyline points="100,190 75,197 65,197 15,80 40,30 80,35 100,45"
+                transform="translate(200,0) scale(-1,0.8)"
+                style="fill:yellowgreen;stroke:green;stroke-width:3" />
+              </svg>
+        </div>   
     </body>
     <script src="script.js"></script>
 </html>

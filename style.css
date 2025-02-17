@@ -28,4 +28,40 @@ button:hover {
 #apple {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+#time {
+  font-family: 'Orbitron';font-size: 20px;
+  display: flex;
+  justify-content: center;
+  top: 30%;
+  position: absolute;
+  width: 100px;
+  /* top: 50%;
+  width: 100%;
+  text-align: center; */
+}
+#time:hover {
+  background-color: yellow !important;
+}
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+ul {                    
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
 }
