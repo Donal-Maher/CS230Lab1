@@ -37,12 +37,9 @@ button:hover {
   top: 30%;
   position: absolute;
   width: 100px;
-  /* top: 50%;
-  width: 100%;
-  text-align: center; */
 }
 #time:hover {
-  background-color: yellow !important;
+  background-color: yellow !important; /* https://stackoverflow.com/questions/10964729/javascript-style-overriding-css-hover*/
 }
 /* https://www.w3schools.com/css/css_navbar_horizontal.asp */
 ul {                    
