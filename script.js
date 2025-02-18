@@ -5,6 +5,9 @@ minutes = 1;
 seconds = 5;
 function runTimer() {
     var totalSeconds = minutes * 60 + seconds;
+    if(totalSeconds == 0) {
+        alert("Take a Break");
+    }
     if(totalSeconds > 0 && isStart && !isPause) {
         totalSeconds--;
     }
