@@ -1,8 +1,8 @@
 var isStart = false;
 var isPause = false;
 var minutes, seconds;
-minutes = 1;
-seconds = 5;
+minutes = 25;
+seconds = 0;
 function runTimer() {
     var totalSeconds = minutes * 60 + seconds;
     if(totalSeconds == 0) {
