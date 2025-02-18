@@ -37,6 +37,7 @@ function pauseButton() {
 }
 function stopButton() {
     isStart = false;
+    if(isPause) pauseButton();
     minutes = 25;
     seconds = 0;
 }

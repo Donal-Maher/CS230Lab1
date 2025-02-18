@@ -34,7 +34,7 @@ button:hover {
   font-family: 'Orbitron';font-size: 20px;
   display: flex;
   justify-content: center;
-  top: 30%;
+  top: 20%;
   position: absolute;
   width: 100px;
 }
