@@ -4,7 +4,7 @@ body {
 button {
   border-color: lightblue;
   border-style: solid;
-  font-family: Roboto;
+  font-family: 'Roboto';
   color: white;
   font-size: 18px;
   width: 30%;
@@ -42,7 +42,7 @@ button:hover {
   width: 100px;
 }
 #time:hover {
-  background-color: yellow !important; /* https://stackoverflow.com/questions/10964729/javascript-style-overriding-css-hover*/
+  background-color: yellow !important; 
 }
 /* https://www.w3schools.com/css/css_navbar_horizontal.asp */
 ul {                    
